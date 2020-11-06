@@ -1,11 +1,569 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Lagoona сеть отелей</title>
 </head>
+
 <body>
-    
+
+<!-----------------------------ШАПКА САЙТА-------------------------------->
+
+    <header class="header">
+
+        <div class="container header-container">
+
+            <ul class="header-logo">
+                <li>
+
+                    <a href="" class="header-logo-link">
+                        <img src="img/header-logo.png" srcset="img/2x/header-logo@2x.png 2x" alt="lagoona сеть отелей" class="header-logo-img">
+                    </a>
+
+                </li>
+                <li>
+                    <a href="tel:+74953225448" class="header-logo-tel">
+                        +7 495 322 54 48
+                    </a>
+                </li>
+            </ul>
+
+            <ul class="header-account">
+                <li>
+                    <a href="" class="header-account-link">
+                        Личный кабинет
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="container header-container-nav">
+
+          <nav class="nav">
+            <ul class="nav-list">
+              <li class="nav-item">
+                <a href="" class="nav-link">
+                  О нас
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="" class="nav-link">
+                  Услуги
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="" class="nav-link">
+                  Преимущества
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="" class="nav-link">
+                  Размещение
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="" class="nav-link">
+                  Блог
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="" class="nav-link">
+                  Контакты
+                </a>
+              </li>
+            </ul>
+
+            <input type="text" placeholder="Поиск" class="search">
+          </nav>
+
+        </div>
+
+    </header>
+
+<!-------------------------------------------------------------------->
+
+<!---------------------------ТЕЛО САЙТА------------------------------->
+    <main>
+
+      <!-------------БЛОК-1  БЫСТРАЯ БРОНЬ, СПЕЦПРЕДЛОЖЕНИЕ--------------->
+      <div class="container">
+        <section class="hot">
+
+          <section class="hot-booking">
+            <h1 class="section-heading">
+              Быстрая бронь
+            </h1>
+            <ul class="hot-booking-list">
+              <li class="hot-booking-item">
+                <input type="text" placeholder="Город" class="hot-booking-input">
+              </li>
+              <li class="hot-booking-item">
+                <input type="text" placeholder="Категория номера" class="hot-booking-input">
+              </li>
+              <li class="hot-booking-item">
+                <input type="text" placeholder="Дата заселения" class="hot-booking-input">
+              </li>
+              <li class="hot-booking-item">
+                <input type="text" placeholder="Количество ночей" class="hot-booking-input">
+              </li>
+              <li class="hot-booking-item">
+                <input type="text" placeholder="Количество гостей" class="hot-booking-input">
+              </li>
+            </ul>
+            <button class="hot-booking-btn">
+              Найти номер
+            </button>
+            <span class="hot-booking-counter">9756</span> <span class="hot-booking-txt"> предложений доступно</span>
+          </section>
+
+          <section class="hot-offer">
+            <h2 class="section-heading">
+              Спецпредложение
+            </h2>
+            <div class="hot-offer-bg">
+              <img src="img/hot-offer.jpg" srcset="img/2x/hot-offer@2x.jpg 2x" alt="номер люкс" class="hot-spec-offer-img">
+            </div>
+            <div class="hot-offer-info">
+              <div class="hot-offer-header">
+                Номера<br>
+                категории<br>
+                люкс<br>
+              </div>
+              <ul class="hot-offer-list">
+                <li class="hot-offer-item">
+                  <span class="hot-offer-price">от 5000 р</span>
+                </li>
+                <li class="hot-offer-item">
+                  <a href="" class="link hot-offer-link">Подробнее</a>
+                </li>
+              </ul>
+            </div>
+          </section>
+
+
+        </section>
+      </div>
+      <!--------------------------------------------------------------------->
+
+      <!--------------------------БЛОК-2 О НАС------------------------------->
+
+      <div class="container">
+        <section class="info">
+
+          <h2 class="section-heading">
+            О нас
+          </h2>
+
+          <p class="info-description">
+            Идейные соображения высшего порядка, а также сложившаяся структура организаци влечет заlo собой процесс внедрения и модернизации системы обучения кадров, соответствует насущным потребностям. Идейные соображения высшего порядка, я также дальнейшее развитие различных форм деятельности представляет собой интересный эксперемент проверки системы обучения кадров, соответствует насущным потребностям. Равным образом сложившаяся структура организации требуют определения и уточнения существенных финансовых и административных условий.
+          </p>
+        </section>
+      </div>
+
+      <!--------------------------------------------------------------------->
+
+      <!-----------------------------БЛОК-3 УСЛУГИ--------------------------->
+      <div class="container services-container">
+
+        <section class="services">
+
+          <h2 class="section-heading">
+            Услуги
+          </h2>
+
+          <ul class="services-list">
+             <!-----1-------------------------------------->
+            <li class="services-item">
+              <img src="img/service.jpg" srcset="img/2x/service@2x.jpg 2x" alt="Эксклюзивное обслуживание" class="services-img">
+              <h3 class="services-link">
+                <a href="" class="link">
+                  Эксклюзивное обслуживание
+                </a>
+              </h3>
+              <p class="services-description">
+                Равным образом постоянный количественный рост и сфера нашей активности
+              </p>
+            </li>
+               <!-----2-------------------------------------->
+            <li class="services-item">
+              <img src="img/rent.jpg" srcset="img/2x/rent@2x.jpg 2x" alt="Аренда" class="services-img">
+              <h3 class="services-link">
+                <a href="" class="link">
+                  Аренда банкетных залов
+                </a>
+              </h3>
+              <p class="services-description">
+                Значимость этих проблем настолько очевидна, что дальнейшее развитие различных форм
+              </p>
+            </li>
+            <!-----3----------------------------------------->
+            <li class="services-item">
+              <img src="img/amenities.jpg" srcset="img/2x/amenities@2x.jpg 2x" alt="основные услуги и удобства" class="services-img">
+              <h3 class="services-link">
+                <a href="" class="link">
+                  Сауны, бассейны, бани, фитнес-залы
+                </a>
+              </h3>
+              <p class="services-description">
+                Не следует, однако забывать, что начало повседневной работы по формированию позиции
+              </p>
+            </li>
+            <!-----4------------------------------------------>
+            <li class="services-item">
+              <img src="img/parking.jpg" alt="img/2x/parking@2x.jpg 2x" class="services-img">
+              <h3 class="services-link">
+                <a href="" class="link">
+                  Охраняемые автомобильные стоянки
+                </a>
+              </h3>
+              <p class="services-description">
+                Не следует, однако забывать, что начало повседневной работы по формированию позиции
+              </p>
+            </li>
+
+          </ul>
+        </section>
+      </div>
+
+      <!------------------------------------------------------------------------->
+
+      <!------------------------БЛОК-4 ПРЕИМУЩЕСТВА------------------------------>
+
+      <div class="container">
+        <section class="advantages">
+
+          <h2 class="section-heading">
+            Преимущества
+          </h2>
+
+          <ul class="advantages-list">
+<!-----1------>
+            <li class="advantages-item">
+              <svg class="advantages-icon advantages-icon-bathtub"></svg>
+              <p class="advantages-description">
+                Равным образом постоянный количественный рост и сфера
+              </p>
+            </li>
+<!-----2------>
+            <li class="advantages-item">
+              <svg class="advantages-icon advantages-icon-hanger"></svg>
+              <p class="advantages-description">
+                Значимость этих проблем настолько очевидна, что дальнейшее
+              </p>
+            </li>
+<!-----3------>
+            <li class="advantages-item">
+              <svg class="advantages-icon advantages-icon-heating"></svg>
+              <p class="advantages-description">
+                Не следует, однако забывать, что начало повседневной работы
+              </p>
+            </li>
+<!-----4------>
+            <li class="advantages-item">
+              <svg class="advantages-icon advantages-icon-hotelkey"></svg>
+              <p class="advantages-description">
+                Равным образом постоянный количественный рост
+              </p>
+            </li>
+<!-----5------>
+            <li class="advantages-item">
+              <svg class="advantages-icon advantages-icon-parking"></svg>
+              <p class="advantages-description">
+                Не следует, однако забывать, что начало повседневной работы по
+              </p>
+            </li>
+<!-----6------>
+            <li class="advantages-item">
+              <svg class="advantages-icon advantages-icon-reception"></svg>
+              <p class="advantages-description">
+                Значимость этих проблем настолько очевидна, что дальнейшее м
+              </p>
+            </li>
+<!-----7------>
+            <li class="advantages-item">
+              <svg class="advantages-icon advantages-icon-securitybox"></svg>
+              <p class="advantages-description">
+                Не следует, однако забывать, что начало повседневной рации
+              </p>
+            </li>
+<!-----8------>
+            <li class="advantages-item">
+              <svg class="advantages-icon advantages-icon-swimmingpool"></svg>
+              <p class="advantages-description">
+                Идейные соображения высшего порядка, а также процесс внедрения
+              </p>
+            </li>
+
+          </ul>
+
+        </section>
+      </div>
+
+      <!------------------------------------------------------------------>
+
+      <!------------------------БЛОК-5 Размещение------------------------->
+      <div class="container">
+        <section class="accommodation">
+
+          <h2 class="section-heading">
+            Размещение
+          </h2>
+
+          <ul class="accommodation-list">
+<!-----1------>
+            <li class="accommodation-item">
+              <img src="img/hotel1.jpg" srcset="img/2x/hotel1@2x.jpg 2x" alt="Общий вид отеля" class="accommodation-img">
+              <div class="accommodation-info">
+                <ul class="accommodation-info-list">
+                  <li class="accommodation-info-item">
+                    <span class="accommodation-info-txt">от</span>&thinsp;<strong>4698&thinsp;p&thinsp;</strong>/&thinsp;ночь&ensp;&ensp;
+                    <img src="img/star.png" alt="Рейтинг отеля">
+                    <img src="img/star.png" alt="">
+                    <img src="img/star.png" alt="">
+                    <img src="img/star.png" alt="">
+                    <img src="img/star-empty.png" alt="">
+                  </li>
+                  <li class="accommodation-info-item">
+                    Lagoona espanola
+                  </li>
+                  <li class="accommodation-info-item">
+                    <span class="accommodation-info-txt">
+                      Барселона, Испания
+                    </span>
+                  </li>
+                  <li class="accommodation-info-item">
+                    <button class="accommodation-info-btn">
+                      Номера
+                    </button>
+                  </li>
+                </ul>
+              </div>
+            </li>
+<!-----2------>
+            <li class="accommodation-item">
+              <img src="img/hotel2.jpg" srcset="img/2x/hotel2@2x.jpg 2x" alt="Общий вид отеля" class="accommodation-img">
+              <div class="accommodation-info">
+                <ul class="accommodation-info-list">
+                  <li class="accommodation-info-item">
+                    <span class="accommodation-info-txt">от</span>&thinsp;<strong>5148&thinsp;p&thinsp;</strong>/&thinsp;ночь&ensp;&ensp;
+                    <img src="img/star.png" alt="Рейтинг отеля">
+                    <img src="img/star.png" alt="">
+                    <img src="img/star.png" alt="">
+                    <img src="img/star.png" alt="">
+                    <img src="img/star-empty.png" alt="">
+                  </li>
+                  <li class="accommodation-info-item">
+                    Lagoona son tipicas
+                  </li>
+                  <li class="accommodation-info-item">
+                    <span class="accommodation-info-txt">
+                      Барселона, Испания
+                    </span>
+                  </li>
+                  <li class="accommodation-info-item">
+                    <button class="accommodation-info-btn">
+                      Номера
+                    </button>
+                  </li>
+                </ul>
+              </div>
+            </li>
+<!-----3------>
+            <li class="accommodation-item">
+              <img src="img/hotel3.jpg" srcset="img/2x/hotel3@2x.jpg 2x" alt="Общий вид отеля" class="accommodation-img">
+              <div class="accommodation-info">
+                <ul class="accommodation-info-list">
+                  <li class="accommodation-info-item">
+                    <span class="accommodation-info-txt">от</span>&thinsp;<strong>6254&thinsp;p&thinsp;</strong>/&thinsp;ночь&ensp;&ensp;
+                    <img src="img/star.png" alt="Рейтинг отеля">
+                    <img src="img/star.png" alt="">
+                    <img src="img/star.png" alt="">
+                    <img src="img/star.png" alt="">
+                    <img src="img/star.png" alt="">
+                  </li>
+                  <li class="accommodation-info-item">
+                    Lagoona de la guerra
+                  </li>
+                  <li class="accommodation-info-item">
+                    <span class="accommodation-info-txt">
+                      Барселона, Испания
+                    </span>
+                  </li>
+                  <li class="accommodation-info-item">
+                    <button class="accommodation-info-btn">
+                      Номера
+                    </button>
+                  </li>
+                </ul>
+              </div>
+            </li>
+<!-----4------>
+            <li class="accommodation-item">
+              <img src="img/hotel4.jpg" srcset="img/2x/hotel4@2x.jpg 2x" alt="Общий вид отеля" class="accommodation-img">
+              <div class="accommodation-info">
+                <ul class="accommodation-info-list">
+                  <li class="accommodation-info-item">
+                    <span class="accommodation-info-txt">от</span>&thinsp;<strong>6320&thinsp;p&thinsp;</strong>/&thinsp;ночь&ensp;&ensp;
+                    <img src="img/star.png" alt="Рейтинг отеля">
+                    <img src="img/star.png" alt="">
+                    <img src="img/star.png" alt="">
+                    <img src="img/star.png" alt="">
+                    <img src="img/star.png" alt="">
+                  </li>
+                  <li class="accommodation-info-item">
+                    Lagoona mentira piadosa
+                  </li>
+                  <li class="accommodation-info-item">
+                    <span class="accommodation-info-txt">
+                      Барселона, Испания
+                    </span>
+                  </li>
+                  <li class="accommodation-info-item">
+                    <button class="accommodation-info-btn">
+                      Номера
+                    </button>
+                  </li>
+                </ul>
+              </div>
+            </li>
+<!-----5------>
+            <li class="accommodation-item">
+              <img src="img/hotel5.jpg" srcset="img/2x/hotel5@2x.jpg 2x" alt="Общий вид отеля" class="accommodation-img">
+              <div class="accommodation-info">
+                <ul class="accommodation-info-list">
+                  <li class="accommodation-info-item">
+                    <span class="accommodation-info-txt">от</span>&thinsp;<strong>6457&thinsp;p&thinsp;</strong>/&thinsp;ночь&ensp;&ensp;
+                    <img src="img/star.png" alt="Рейтинг отеля">
+                    <img src="img/star.png" alt="">
+                    <img src="img/star.png" alt="">
+                    <img src="img/star.png" alt="">
+                    <img src="img/star-empty.png" alt="">
+                  </li>
+                  <li class="accommodation-info-item">
+                    Lagoona empujar la creatividad
+                  </li>
+                  <li class="accommodation-info-item">
+                    <span class="accommodation-info-txt">
+                      Барселона, Испания
+                    </span>
+                  </li>
+                  <li class="accommodation-info-item">
+                    <button class="accommodation-info-btn">
+                      Номера
+                    </button>
+                  </li>
+                </ul>
+              </div>
+            </li>
+<!-----6------>
+            <li class="accommodation-item">
+              <img src="img/hotel6.jpg" srcset="img/2x/hotel6@2x.jpg 2x" alt="Общий вид отеля" class="accommodation-img">
+              <div class="accommodation-info">
+                <ul class="accommodation-info-list">
+                  <li class="accommodation-info-item">
+                    <span class="accommodation-info-txt">от</span>&thinsp;<strong>6490&thinsp;p&thinsp;</strong>/&thinsp;ночь&ensp;&ensp;
+                    <img src="img/star.png" alt="Рейтинг отеля">
+                    <img src="img/star.png" alt="">
+                    <img src="img/star.png" alt="">
+                    <img src="img/star.png" alt="">
+                    <img src="img/star.png" alt="">
+                  </li>
+                  <li class="accommodation-info-item">
+                    Lagoona el retorno
+                  </li>
+                  <li class="accommodation-info-item">
+                    <span class="accommodation-info-txt">
+                      Барселона, Испания
+                    </span>
+                  </li>
+                  <li class="accommodation-info-item">
+                    <button class="accommodation-info-btn">
+                      Номера
+                    </button>
+                  </li>
+                </ul>
+              </div>
+            </li>
+<!-----7------>
+            <li class="accommodation-item">
+              <img src="img/hotel7.jpg" srcset="img/2x/hotel7@2x.jpg 2x" alt="Общий вид отеля" class="accommodation-img">
+              <div class="accommodation-info">
+                <ul class="accommodation-info-list">
+                  <li class="accommodation-info-item">
+                    <span class="accommodation-info-txt">от</span>&thinsp;<strong>6505&thinsp;p&thinsp;</strong>/&thinsp;ночь&ensp;&ensp;
+                    <img src="img/star.png" alt="Рейтинг отеля">
+                    <img src="img/star.png" alt="">
+                    <img src="img/star.png" alt="">
+                    <img src="img/star.png" alt="">
+                    <img src="img/star.png" alt="">
+                  </li>
+                  <li class="accommodation-info-item">
+                    Lagoona enfermo termino
+                  </li>
+                  <li class="accommodation-info-item">
+                    <span class="accommodation-info-txt">
+                      Барселона, Испания
+                    </span>
+                  </li>
+                  <li class="accommodation-info-item">
+                    <button class="accommodation-info-btn">
+                      Номера
+                    </button>
+                  </li>
+                </ul>
+              </div>
+            </li>
+<!-----8------>
+            <li class="accommodation-item">
+              <img src="img/hotel8.jpg" srcset="img/2x/hotel8@2x.jpg 2x" alt="Общий вид отеля" class="accommodation-img">
+              <div class="accommodation-info">
+                <ul class="accommodation-info-list">
+                  <li class="accommodation-info-item">
+                    <span class="accommodation-info-txt">от</span>&thinsp;<strong>6824&thinsp;p&thinsp;</strong>/&thinsp;ночь&ensp;&ensp;
+                    <img src="img/star.png" alt="Рейтинг отеля">
+                    <img src="img/star.png" alt="">
+                    <img src="img/star.png" alt="">
+                    <img src="img/star.png" alt="">
+                    <img src="img/star-empty.png" alt="">
+                  </li>
+                  <li class="accommodation-info-item">
+                    Lagoonaa suerte siguio siempre
+                  </li>
+                  <li class="accommodation-info-item">
+                    <span class="accommodation-info-txt">
+                      Барселона, Испания
+                    </span>
+                  </li>
+                  <li class="accommodation-info-item">
+                    <button class="accommodation-info-btn">
+                      Номера
+                    </button>
+                  </li>
+                </ul>
+              </div>
+            </li>
+<!-----9------>
+            <li class="accommodation-item">
+              <div class="accommodation-link-bg">
+                <a href="" class="accommodation-link">
+                  Посмотреть все варианты
+                </a>
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+      </div>
+      <!------------------------------------------------------------------->
+
+    </main>
+    <!------------------------------------------------------------------->
+
+    <footer></footer>
 </body>
 </html>

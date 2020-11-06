@@ -1,0 +1,427 @@
+
+/* -----------------FONTS------------------- */
+
+@font-face {
+	font-family: 'Muller';
+	src: url('../fonts/MullerLight.woff2') format('woff2'),
+		url('../fonts/MullerLight.woff') format('woff');
+	font-display: swap;
+	font-weight: 100;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Muller';
+	src: url('../fonts/MullerRegular.woff2') format('woff2'),
+		   url('../fonts/MullerRegular.woff') format('woff');
+	font-display: swap;
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Muller';
+	src: url('../fonts/MullerBold.woff2') format('woff2'),
+		   url('../fonts/MullerBold.woff') format('woff');
+	font-display: swap;
+	font-weight: 800;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Muller';
+	src: url('../fonts/MullerMedium.woff2') format('woff2'),
+		   url('../fonts/MullerMedium.woff') format('woff');
+	font-display: swap;
+	font-weight: 500;
+	font-style: normal;
+}
+
+/* ----------------------------------------- */
+
+/*--------- ГЛОБАЛЬНЫЕ НАСТРОЙКИ ------------*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Muller', Arial, sans-serif;
+    font-size: 16px;
+    color: #333333;
+    background-color: #f1f1f1;
+
+}
+
+a {
+    text-decoration: none;
+    color: #333333;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+
+}
+
+p {
+  margin-top: 0px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.section-heading {
+    margin-bottom: 20px;
+    padding-left: 40px;
+    font-weight: normal;
+    font-size: 40px;
+}
+
+.link {
+    padding-right: 15px;
+    font-weight: normal;
+    font-size: 22px;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-image: url('../img/arrow.png');
+
+    color: #cc9933;
+}
+
+/* ------------------------------------------ */
+
+
+/*-----------------  -| HEADER |-  -------------------*/
+
+.header {
+    height: 190px;
+    margin-bottom: 60px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo-img {
+    width: 260px;
+    margin-right: 20px;
+}
+
+.header-logo-tel {
+    font-size: 22px;
+    font-weight: 800;
+    color: #666666;
+}
+
+.header-account-link {
+    font-size: 16px;
+    color: #cc9933;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+    border-radius: 12px;
+    background-color: #fff;
+}
+
+.nav-list {
+    display: flex;
+    margin-left: 15px;
+}
+
+.nav-item:not(:last-child) {
+    margin-right: 35px;
+}
+
+.search {
+    width: 350px;
+    height: 50px;
+    margin-right: 20px;
+    padding-left: 20px;
+    padding-right: 45px;
+    border: none;
+    border-radius: 12px;
+    outline: none;
+    font-family: inherit;
+    font-size: 14px;
+    background-image: url('../img/svg/search.svg');
+    background-repeat: no-repeat;
+    background-position: 310px 50%;
+    background-size: 22px;
+    background-color: #f1f1f1;
+
+}
+
+/* -------------------------------------------------- */
+
+/*----- БЛОК-1  -| HOT |- (быстрая бронь, спецпредложение)------ */
+
+.hot {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+
+
+.hot-booking-input {
+    width: 515px;
+    height: 70px;
+    margin-bottom: 20px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border: none;
+    outline: none;
+    border-radius: 12px;
+    font-family: inherit;
+}
+
+.hot-booking-btn {
+    width: 159px;
+    height: 70px;
+    margin-right: 30px;
+    border: none;
+    border-radius: 12px;
+    font-family: inherit;
+    color: #fff;
+    background-color: #cc9933;
+}
+
+.hot-booking-counter {
+    color: #cc9933;
+}
+
+.hot-booking-txt {
+    color: #999999;
+}
+
+
+.hot-offer {
+    position: relative;
+}
+
+.hot-offer-bg {
+    width: 595px;
+}
+
+.hot-offer-info {
+    position: absolute;
+    left: 40px;
+    bottom: 35px;
+}
+
+.hot-offer-header {
+    font-size: 66px;
+    font-weight: 800;
+    color: #fff;
+}
+
+.hot-offer-list {
+    display: flex;
+    align-items: baseline;
+}
+
+.hot-offer-price {
+    margin-right: 35px;
+    font-size: 35px;
+    color: #958c86;
+}
+
+.hot-offer-link {
+    font-size: 16px;
+}
+
+/* ------------------------------------------------ */
+
+
+/* -------------БЛОК-2  -| INFO |- о нас------------ */
+
+.info-description {
+    width: 890px;
+    padding-left: 40px;
+}
+
+/* ------------------------------------------------- */
+
+
+/* ----------БЛОК-3  -| SERVICES |- услуги-----------*/
+
+.services-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.services-item {
+   width: 572px;
+   min-height: 330px;
+   margin-bottom: 24px;
+   border-radius: 12px;
+   background-color: #fff;
+
+}
+
+.services-link {
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.services-description {
+    padding-left: 40px;
+    padding-right: 135px;
+    line-height: 32px;
+}
+
+/* ---------------------------------------------------- */
+
+/* ---------БЛОК-4  -|ADVANTAGES|- преимущества---------- */
+
+
+
+.advantages-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.advantages-item {
+    width: 275px;
+    min-height: 275px;
+    padding: 40px 60px 40px 40px;
+    margin-bottom: 25px;
+    border-radius: 12px;
+    background-color: #fff;
+}
+
+.advantages-description {
+    line-height: 32px;
+}
+
+.advantages-icon {
+    width: 70px;
+    height: 60px;
+    margin-bottom: 10px;
+    background-repeat: no-repeat;
+}
+
+.advantages-icon-bathtub {
+    background-image: url('../img/svg/bathtub.svg');
+}
+
+.advantages-icon-hanger {
+    background-image: url('../img/svg/hanger.svg');
+}
+
+.advantages-icon-heating {
+    background-image: url('../img/svg/heating.svg');
+}
+
+.advantages-icon-hotelkey {
+    background-image: url('../img/svg/hotel-key.svg');
+}
+
+.advantages-icon-parking {
+    background-image: url('../img/svg/parking.svg');
+}
+
+.advantages-icon-reception {
+    background-image: url('../img/svg/reception.svg');
+}
+
+.advantages-icon-securitybox {
+    background-image: url('../img/svg/security-box.svg');
+}
+
+.advantages-icon-swimmingpool {
+    background-image: url('../img/svg/swimming-pool.svg');
+}
+
+/* ----------------------------------------------------- */
+
+/* ---------БЛОК-5   -|ACCOMODATION|- размещение ------- */
+
+
+.accommodation-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.accommodation-item {
+    width: 373px;
+    height: 442px;
+    margin-bottom: 25px;
+    border-radius: 12px;
+    background-color: #fff;
+}
+
+.accommodation-img {
+    margin-bottom: 30px;
+}
+
+.accommodation-info-list {
+    padding-left: 40px;
+}
+
+.accommodation-info-item:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+.accommodation-info-txt {
+   color: #958c86;
+}
+
+.accommodation-info-btn {
+    width: 100px;
+    height: 40px;
+    border-radius: 12px;
+    border: 1px solid #cc9933;
+    font-family: inherit;
+    font-weight: 500;
+    color: #cc9933;
+    background-color: #fff;
+}
+
+.accommodation-link-bg {
+    position: relative;
+    width: inherit;
+    height: inherit;
+    background-repeat: no-repeat;
+    background-image: url('../img/41.jpg');
+}
+
+.accommodation-link {
+    position: absolute;
+    left: 35px;
+    bottom: 50px;
+    padding-right: 20px;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-image: url('../img/svg/arrow-white.svg');
+    font-size: 22px;
+    font-weight: 500;
+    color: #fff;
+}
