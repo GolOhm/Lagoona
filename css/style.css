@@ -451,7 +451,7 @@ textarea {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
-  padding: 24px 44px 44px 44px;
+  padding: 24px 44px 24px 44px;
 }
 
 .contacts-info-item {
@@ -510,4 +510,80 @@ textarea {
   height: 70px;
   color: #fff;
   background-color: #cc9933;
+}
+
+/* ----------------------------------------------------- */
+
+/* ---------------- -|FOOTER|- подвал ----------------- */
+.footer {
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.footer-container {
+  display: flex;
+  height: 340px;
+  padding: 45px;
+  border: none;
+  border-radius: 12px;
+  background-position: 745px 100%;
+  background-repeat: no-repeat;
+  background-image: url('../img/logo.png');
+  background-color: #333333;
+}
+
+.footer-link {
+  color: #cc9933;
+}
+
+.footer-description-list {
+  width: 300px;
+  margin-right: 120px;
+  line-height: 1.8;
+}
+
+.footer-description-item:not(:last-child) {
+margin-bottom: 40px;
+}
+
+.footer-contacts-list {
+  flex-grow: 1;
+}
+
+.footer-contacts-item:not(:last-child) {
+margin-bottom: 30px;
+}
+
+.footer-social-list {
+  flex-shrink: 1;
+  line-height: 2.8;
+}
+
+.footer-social-icon {
+display: inline-block;
+width: 26px;
+height: 26px;
+background-size: contain;
+background-repeat: no-repeat;
+background-color: transparent;
+}
+
+.footer-social-icon-tripadvisor {
+  background-image: url('../img/svg/tripadvisor.svg');
+}
+
+.footer-social-icon-twitter {
+  background-image: url('../img/svg/twitter.svg');
+}
+
+.footer-social-icon-vk {
+  background-image: url('../img/svg/vk.svg');
+}
+
+.footer-social-icon-facebook {
+  background-image: url('../img/svg/facebook.svg');
+}
+
+.footer-social-icon-google {
+  background-image: url('../img/svg/google.svg');
 }
